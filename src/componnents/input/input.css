@@ -1,0 +1,13 @@
+input {
+    border-radius: 6px;
+    border: 1px solid rgba(134, 134, 134, 0.575);
+    margin: 5px 0;
+    padding: 10px;
+}
+input::placeholder{
+    font-size: 10px;
+} 
+input:focus-within{
+    font-size: 13px;
+    outline: 0;
+} 
