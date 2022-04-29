@@ -1,0 +1,49 @@
+.cardNote {
+  background-color: var(--secondary-collor);
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  transform: rotate(-12deg);
+  box-shadow: 8px 8px 4px -5px;
+  margin: auto;
+}
+
+.cardNote:hover {
+  animation: myRotate 5s 1;
+}
+
+.cardNote h2 {
+  padding-top: 40px;
+  font-size: 80px;
+  font-weight: 800;
+
+  font-family: 'Caveat', cursive;
+  /* font-family: 'Water Brush', cursive; */
+  /* font-family: 'Square Peg', cursive; */
+}
+
+@keyframes myRotate {
+  0% {
+    -webkit-transform: rotateZ(-12deg);
+    -ms-transform: rotateZ(-12deg);
+    transform: rotateZ(-12deg);
+  }
+
+  25% {
+    -webkit-transform: rotateZ(-20deg);
+    -ms-transform: rotateZ(-20deg);
+    transform: rotateZ(-20deg);
+  }
+
+  75% {
+    -webkit-transform: rotateZ(-25deg);
+    -ms-transform: rotateZ(-25deg);
+    transform: rotateZ(-25deg);
+  }
+
+  100% {
+    -webkit-transform: rotateZ(-30deg);
+    -ms-transform: rotateZ(-30deg);
+    transform: rotateZ(-30deg);
+  }
+}
