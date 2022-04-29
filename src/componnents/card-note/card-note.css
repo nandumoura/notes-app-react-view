@@ -21,7 +21,24 @@
   /* font-family: 'Water Brush', cursive; */
   /* font-family: 'Square Peg', cursive; */
 }
-
+.yellow-ligth{
+  background-color: #f7e781;
+}
+.green-ligth{
+  background-color: #7deb74;
+}
+.pink-ligth{
+  background-color: #b498f0;
+}
+.red-ligth{
+  background-color: #fc7b6a;
+}
+.blue-ligth{
+  background-color: #81cff9;
+}
+.orange{
+  background-color: #fc9d30;
+}
 @keyframes myRotate {
   0% {
     -webkit-transform: rotateZ(-12deg);
