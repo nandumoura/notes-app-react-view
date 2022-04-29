@@ -1,0 +1,23 @@
+h1{
+    font-size: 24px;
+    font-weight: 700;
+}
+.text-content{
+    padding: 20px;
+}
+.card-notes-block{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-content: flex-end;
+}
+.card-notes-block > .cardNote{
+    width: 36vmin;
+    height: 36vmin;
+    margin: 6vmin;
+}
+.card-notes-block > .cardNote h2{
+    font-size: 2rem;
+}
