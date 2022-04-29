@@ -1,0 +1,45 @@
+header{
+    width: 100vw;
+    background-color: #808080;
+    color: white;
+}
+
+.navigation-content{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+.navigation-item  {
+    flex-grow: 1;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.search-content {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.search-content > input{
+    width: 70%;
+
+}
+
+.navigation-item > a > svg {
+    height: 100%;
+
+}
+.navigation-item > p ,.navigation-item  > a{
+    font-size: 2rem;
+} 
+ .navigation-item > a {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+svg{
+    font-size: 2rem;
+}
