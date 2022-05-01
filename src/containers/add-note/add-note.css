@@ -1,0 +1,62 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-note-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 15px;
+}
+
+.card-note-container>.cardNote {
+    width: 90px;
+    height: 90px;
+    font-size: 12px;
+}
+
+.left-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 25px;
+    text-align: center;
+}
+
+.left-actions>div>svg {
+    font-size: 2.9rem;
+}
+
+.card-note-container>.cardNote h2 {
+    font-size: 22px;
+    padding-top: 32px;
+}
+
+.add-note-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.add-note-form>div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid rgba(77, 76, 76, 0.507);
+}
+
+.add-note-form>div>label {
+    align-self: center;
+}
+
+.add-note-form>div>input{
+    width: 70%;
+    border:none;
+}
+.add-note-form>textarea{
+    width: 100%;
+    margin: 20px 0;
+    border: none;
+    outline: none;
+}
