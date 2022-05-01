@@ -8,7 +8,7 @@ function Login() {
   return (
     <div className="Login">
       <main>
-        <CardNote title="Jot" />
+        <CardNote title="Jot"  animated={true} />
         <p className="text-login">Let's make some notes!</p>
         <div className="input-container">
           <Input placeholder="User Name" />
