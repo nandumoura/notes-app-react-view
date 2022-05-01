@@ -2,7 +2,7 @@ import "./footer.css"
 import { HiHome, HiOutlineCollection } from 'react-icons/hi';
 import { GiNotebook } from "react-icons/gi"
 
-function Footer() {
+function Footer(props) {
     return (
         <div className="footer-content">
             <div className="footer-item">

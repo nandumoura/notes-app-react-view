@@ -3,9 +3,9 @@ import Input from "../input/input"
 import { HiOutlineChevronLeft, HiDotsCircleHorizontal } from 'react-icons/hi';
 
 
-function Header() {
+function Header(props) {
     return (
-        <header>
+        <header className={props.htmlClass}>
             <div className="navigation-content">
                 <div className="navigation-item">
                    <a href="/back"> <HiOutlineChevronLeft /><p>Back</p></a>

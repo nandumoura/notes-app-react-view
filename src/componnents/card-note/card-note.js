@@ -1,7 +1,7 @@
 import "./card-note.css"
 
 function CardNote(props) {
-    const classes = `cardNote ${props.color} ${props.animated?"animated-true":null}`
+    const classes = `cardNote ${props.color?"background--"+props.color:""} ${props.animated?" animated-true":""}`
 
    
     return (

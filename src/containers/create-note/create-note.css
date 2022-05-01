@@ -1,0 +1,28 @@
+.create-note-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.create-note-container > p {
+    padding: 10px;
+}
+.category-notes-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.category-notes-container > .cardNote{
+    margin:20px;
+
+}
+.category-notes-container > .cardNote > h2 {
+    font-size: 28px;
+}
+
+.bottom-content{
+    display: flex;
+    justify-content: space-between;
+    color: red;
+}

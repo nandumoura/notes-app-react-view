@@ -7,11 +7,11 @@ const AppBar = () => {
     <div className='create-note-container'>
       <p>Select an existing note pad to place your new note.</p>
       <div className='category-notes-container'>
-        <CardNote title="Groceries" />
+        <CardNote title="Groceries" color="yellow-ligth" />
         <CardNote title="Family" color="orange" />
         <CardNote title="Work" color="green-ligth" />
         <CardNote title="Home" color="blue-ligth" />
-        <CardNote title="Car" color="pink-litgh" />
+        <CardNote title="Car" color="pink-ligth" />
         <CardNote title="wekend" color="red-ligth" />
       </div>
       <p>Create a new pad to place your note.</p>
