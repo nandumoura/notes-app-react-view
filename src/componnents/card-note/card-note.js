@@ -1,7 +1,9 @@
 import "./card-note.css"
 
 function CardNote(props) {
-    const classes = `cardNote ${props.color}`
+    const classes = `cardNote ${props.color} ${props.animated?"animated-true":null}`
+
+   
     return (
         <div className={classes}>
             <h2>{props.title}</h2>
